@@ -1,0 +1,10 @@
+{
+  "name": "kaushal-ai-monorepo",
+  "version": "1.0.0",
+  "description": "KaushalAI - AI-Enabled Skill Intelligence & Karmayogi Learning Recommendation Platform",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build"
+  }
+}
